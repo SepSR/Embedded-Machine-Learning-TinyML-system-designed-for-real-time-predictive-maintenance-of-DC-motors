@@ -122,7 +122,7 @@ Move the generated model.h file to your TinyML_Model_Run Arduino project directo
 Open TinyML_Model_Run.ino in the Arduino IDE and compile/upload the code to your ESP32.
 The system is now fully autonomous! Change the speed levels (1-10) using the control button and monitor the real-time system health on the ST7789 TFT display.
 
-###🔮 Future Research Directions & Architectural Extensions
+### 🔮 Future Research Directions & Architectural Extensions
 To further scale this research in industrial settings, several advanced extensions are proposed:
 1. Unsupervised Anomaly Detection (One-Class classification)
 While the current supervised SVM classifier achieves high accuracy, industrial faults are diverse and often undocumented. Future iterations will transition to unsupervised algorithms, such as One-Class SVM or Autoencoders. By training solely on healthy baseline profiles, the edge system will flag any unseen, deviant behavior as anomalous, removing the requirement for hazardous fault simulation.
